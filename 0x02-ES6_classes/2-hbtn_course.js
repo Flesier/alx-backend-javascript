@@ -28,13 +28,13 @@ set name(na) {
     this._name = na;
 }
 get length() {
-    return this.length;
+    return this._length;
 }
 set length(zise) {
     if (typeof zise !== 'number') {
         throw new TypeError('Length must be a number');
     }
-    this.length = zise;
+    this._length = zise;
 }
 get students() {
     return this._students;

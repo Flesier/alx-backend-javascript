@@ -1,10 +1,10 @@
 /**
  * A message is displayed on STDOUT
- * @param {sring} msg is displayed
+ * @param {string} msg is displayed
  */
 
-const displayMessage = (msg) => {
-     console.log(msg);
+const displayMessage = (string) => {
+     console.log(string);
 };
 
 module.exports = displayMessage;
